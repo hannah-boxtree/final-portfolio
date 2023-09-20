@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hannah's PlayQ</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/media.css" />
+  </head>
+  <body>
+    <header>
+      <h1>
+        <!-- 어디로 갈지 모를 땐 # -->
+        <a href="#">
+          <img class="logo" src="./images/playQ_white.png" alt="플레이큐" />
+        </a>
+      </h1>
+
+      <nav>
+        <ul>
+          <!-- li*4 + tab 하면 여러개 동시 생성 -->
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#activity">Activity</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <h2>
+          안녕하세요. <br />
+          <strong
+            >박스트리 매니저 <br />
+            박경아입니다.</strong
+          >
+        </h2>
+        <img
+          class="robi"
+          src="./images/image.png"
+          alt="기타를 치고 있는 플레이큐 캐릭터 로비"
+        />
+        <!-- 이미지 누르면 하단으로 이동하도록 설정..? -->
+        <a class="down" href="#about"
+          ><img src="./images/down.svg" alt="하단으로 이동"
+        /></a>
+      </section>
+
+      <section id="about">
+        <h2 class="title">About</h2>
+        <!-- lorem+tab -->
+        <p>
+          보물섬 제주에서 숨겨진 보물을 찾아라! 플레이큐는 보물섬 제주에서
+          펼쳐지는 야외 보물찾기 게임. <br />
+          앱과 키트, 그리고 현장 단서를 이용해 퀘스트를 풀고 숨겨진 보물도
+          찾아보세요. <br />
+          제주를 구석구석 둘러보고 즐길 수 있는 가장 효과적인 액티비티, 바로
+          플레이큐입니다!
+        </p>
+        <p></p>
+      </section>
+
+      <section id="activity">
+        <h2 class="title title-plus">Activity</h2>
+
+        <ul class="textwrap">
+          <li>
+            <strong>카우보이의 비밀미션</strong>
+            <p>
+              아침미소목장에서 펼쳐지는 야외형 보물찾기. 자녀와 함께 참여하세요.
+            </p>
+          </li>
+          <br />
+          <li>
+            <strong>용궁 공주님을 구해줘</strong>
+            <p>
+              세화 마을 전역에서 이루어지는 야외형 보물찾기. 친구와 함께
+              참여하세요.
+            </p>
+          </li>
+        </ul>
+
+        <!-- 목록 이미지 삽입. 나중에 css로 사이즈 다 맞출 것! -->
+        <ul class="imgwrap">
+          <li>
+            <img src="./images/image1.jpg" alt="플레이큐 카우보이의 비밀미션" />
+          </li>
+          <li>
+            <img src="./images/1_1.png" alt="플레이큐 위기의 테마파크" />
+          </li>
+          <li>
+            <img
+              src="./images/image2.jpg"
+              alt="플레이큐 용궁 공주님을 구해줘"
+            />
+          </li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <div class="contactwrap">
+          <h2>Contact</h2>
+          <p>
+            플레이큐 프로젝트에 관심 있거나 함께 하시기를 희망하는 관광지는
+            문의주세요 <br />
+            언제든 환영입니다. Play Quelpart, Play Quest, Play Q
+          </p>
+          <div class="btnwrap">
+            <div>
+              <img src="./mail.svg" alt="메일 전송하기" />
+              <a href="mailto:hannah@boxtree.kr">hannah@boxtree.kr</a>
+            </div>
+            <div>
+              <img src="./mobile.svg" alt="전화하기" />
+              <a href="tel:064-747-8900">064-747-8900</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <small>Copyright 2023.HANNAH all rights reserved.</small>
+    </footer>
+  </body>
+</html>
